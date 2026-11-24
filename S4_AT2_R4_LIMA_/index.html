@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="PixelGear eSports Store - PCs Gamers de alta performance, periféricos e acessórios para eSports.">
+    <meta name="keywords" content="eSports, PC Gamer, Periféricos, Hardware, Jogos">
+    <meta name="author" content="Gabriel Venezi">
+
+    <title> Loja de Artigos Esportivos</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0d0f12;
+            color: #e0e6ed;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #15f384;
+            font-size: 38px;
+            margin: 0;
+            text-align: center;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #15f384;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #ffffff;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            color: #b3c0d1;
+            line-height: 1.5;
+        }
+
+        article {
+            align-items: center;
+        }
+
+        .minha-imagem {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .promo {
+            text-decoration: line-through;
+            color: #7b8898;
+        }
+
+        .preco {
+            color: #15f384;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        table {
+            margin: 20px auto;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #6c7a89;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Loja de Artigos Esportivos</h1>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Missão e Valores</h2>
+            <p>
+                A <strong>Loja de Artigos Esportivos</strong> é uma startup focada em entregar performance para atletas.
+            </p>
+            <p>
+                Nossa missão é proporcionar aos atletas os melhores equipamentos para seu desempenho.
+            </p>
+        </section>
+
+        <section id="produtos">
+            <h2>Destaques da Semana</h2>
+
+            <article>
+                <img class="minha-imagem"
+                    src="https://cdn.awsli.com.br/600x450/1036/1036185/produto/340331667/81d1fb2a5ff84eb3990446fd72c6d8dc-4iuhqleae4.png"
+                    alt="Loja de Artigos Esportivos">
+                <div class="product-info">
+                    <h3>Manguito para Vôlei</h3>
+                    <p>
+                        Manguito para jogadores de vôlei, equipado com <strong>Tecnologia que inibe a sudorese</strong> do dia a dia.
+                    </p>
+                    <p>
+                        Braços sem machucados e totalmente equipados !.<br>
+                    </p>
+                    <p>
+                        De: <span class="promo">R$ 129,90</span><br>
+                        Por apenas: <span class="preco">R$ 99,90</span> <sub>à vista no PIX</sub>
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <img class="minha-imagem"
+                    src="https://imgnike-a.akamaihd.net/768x768/05640119A1.jpg"
+                    alt="Loja de Artigos Esportivos">
+                <div class="product-info">
+                    <h3>Nike Vomero 18</h3>
+                    <p>
+                        Tenis Nike equipado com alta Tecnologia de carbono que auxilia na amortização e conforto durante a prática esportiva.
+                    </p>
+                    <p>
+                        Por apenas: <span class="preco">R$ 899,00</span>
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>bruno</td>
+            <td>17</td>
+        </tr>
+    </table>
+
+    <table border="2">
+        <tr>
+            <td><b>Manguito para Vôlei</b></td>
+            <td>Tecnologia anti sudorese</td>
+            <td>R$ 99,90</td>
+        </tr>
+        <tr>
+            <td><b>Nike Vomero 18</b></td>
+            <td>Tenis Nike equipado com alta Tecnologia de carbono</td>
+            <td><strong>R$ 899,00</strong></td>
+        </tr>
+    </table>
+
+    <h1>Dados do cliente</h1>
+
+    <hr>
+
+    <fieldset>
+        <legend><strong>1. Dados do Cliente</strong></legend>
+
+        <p>
+            <label for="nome">Nome Completo:*</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            <br><br>
+        </p>
+
+        <p>
+            <label for="email">E-mail:*</label><br>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            <br><br>
+        </p>
+
+        <p>
+            <label for="whatsapp">WhatsApp:*</label><br>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(11) 99999-9999" required>
+            <br><br>
+        </p>
+    <hr>
+
+    <a href="https://web.whatsapp.com/" target="_blank">
+        <strong style="color: green;" font-size="100px">Contato via WhatsApp 📲</strong>
+    </a>
+
+    <footer>
+        <p>&copy; 2026 PixelGear eSports Store — Todos os direitos reservados. Desenvolvido por Gabriel Venezi.</p>
+    </footer>
+</body>
+
+</html>
